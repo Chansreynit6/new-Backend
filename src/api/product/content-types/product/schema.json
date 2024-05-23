@@ -4,7 +4,8 @@
   "info": {
     "singularName": "product",
     "pluralName": "products",
-    "displayName": "product"
+    "displayName": "product",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,53 @@
   "attributes": {
     "name": {
       "type": "string"
+    },
+    "categroy": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::categroy.categroy",
+      "inversedBy": "products"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "productId": {
+      "type": "integer"
+    },
+    "Quantity": {
+      "type": "string"
+    },
+    "Organic": {
+      "type": "boolean"
+    },
+    "OriginProvince": {
+      "type": "string"
+    },
+    "OwnerID": {
+      "type": "integer"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "use": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::use.use",
+      "inversedBy": "products"
+    },
+    "orders": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::order.order",
+      "mappedBy": "product"
     }
   }
 }
