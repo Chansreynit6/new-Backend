@@ -1,3 +1,7 @@
+# link Api
+.product:https://clever-beauty-47c85a7410.strapiapp.com/api/products
+.category:https://clever-beauty-47c85a7410.strapiapp.com/api/categroys
+
 # 🚀 Getting started with Strapi
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/dev-docs/cli) (CLI) which lets you scaffold and manage your project in seconds.
