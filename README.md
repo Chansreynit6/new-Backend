@@ -4,7 +4,7 @@ This API allows you to manage and retrieve fairy tale stories. Below are the ava
 ### `Endpoints`
 
 ```
-https://fairy-tale-api.vercel.app/
+
 
 ### `Get all Product`
 
