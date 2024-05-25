@@ -1,12 +1,12 @@
 # Backend-AgroMaket
 This API allows you to manage and retrieve fairy tale stories. Below are the available endpoints and their functionalities.
 
-# Get all Product
+### `Get all Product`
 .category:https://clever-beauty-47c85a7410.strapiapp.com/api/categroys
 
-# Get a Single Product
+### `Get a Single Product`
 .category:https://clever-beauty-47c85a7410.strapiapp.com/api/categroys
-# Filter Product by Category
+### `Filter Product by Category`
 .product:[https://clever-beauty-47c85a7410.strapiapp.com/api/products](https://clever-beauty-47c85a7410.strapiapp.com/api/products?populate=image&pagination[page]=1&pagination[pageSize]=34](https://clever-beauty-47c85a7410.strapiapp.com/api/
 
 # 🚀 Getting started with Strapi
