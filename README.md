@@ -3,6 +3,7 @@ This API allows you to manage and retrieve fairy tale stories. Below are the ava
 
 # Get all Product
 .category:https://clever-beauty-47c85a7410.strapiapp.com/api/categroys
+
 # Get a Single Product
 .category:https://clever-beauty-47c85a7410.strapiapp.com/api/categroys
 # Filter Product by Category
