@@ -6,8 +6,9 @@ This API allows you to manage and retrieve fairy tale stories. Below are the ava
 ```
 https://fairy-tale-api.vercel.app/
 
-
 ### `Get all Product`
+
+
 ```
 https://fairy-tale-api.vercel.app/
 .category:https://clever-beauty-47c85a7410.strapiapp.com/api/categroys
