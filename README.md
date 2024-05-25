@@ -4,24 +4,20 @@ This API allows you to manage and retrieve fairy tale stories. Below are the ava
 ### `Endpoints`
 
 ```
+https://fairy-tale-api.vercel.app/
 
 
 ### `Get all Product`
 
-
-```
-https://fairy-tale-api.vercel.app/
 .category:https://clever-beauty-47c85a7410.strapiapp.com/api/categroys
 
 ### `Get a Single Product`
 
-```
-https://fairy-tale-api.vercel.app/
+
 .category:https://clever-beauty-47c85a7410.strapiapp.com/api/categroys
 
 ### `Filter Product by Category`
-```
-https://fairy-tale-api.vercel.app/
+
 .product:[https://clever-beauty-47c85a7410.strapiapp.com/api/products](https://clever-beauty-47c85a7410.strapiapp.com/api/products?populate=image&pagination[page]=1&pagination[pageSize]=34](https://clever-beauty-47c85a7410.strapiapp.com/api/
 
 # 🚀 Getting started with Strapi
