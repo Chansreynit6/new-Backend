@@ -26,6 +26,6 @@ Example: https://clever-beauty-47c85a7410.strapiapp.com/api/products?filters[pro
 
 ### Filter Product by Category
 ```
-https://fairy-tale-api.vercel.app/
+GET  /api/products?filters[categoryId][$in][0]=1&populate=*
 ```
-https://fairy-tale-api.vercel.app/
+Example: https://clever-beauty-47c85a7410.strapiapp.com/api/products?filters[categoryId][$in][0]=2&populate=*
