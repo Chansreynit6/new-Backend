@@ -9,10 +9,10 @@ https://clever-beauty-47c85a7410.strapiapp.com/
 ```
 
 ### Get all Product
-GET  /api/products?pagination[page]=1&pagination[pageSize]=34&populate=*
+
 
 ```
-https://fairy-tale-api.vercel.app/
+GET  /api/products?pagination[page]=1&pagination[pageSize]=34&populate=*
 ```
 https://fairy-tale-api.vercel.app/
 
