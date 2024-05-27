@@ -14,7 +14,7 @@ https://clever-beauty-47c85a7410.strapiapp.com/
 ```
 GET  /api/products?pagination[page]=1&pagination[pageSize]=34&populate=*
 ```
-https://fairy-tale-api.vercel.app/
+Example: https://clever-beauty-47c85a7410.strapiapp.com/api/products?pagination[page]=1&pagination[pageSize]=34&populate=*
 
 ### Get a Single Product
 
