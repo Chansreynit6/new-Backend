@@ -20,9 +20,9 @@ Example: https://clever-beauty-47c85a7410.strapiapp.com/api/products?pagination[
 
 
 ```
-https://fairy-tale-api.vercel.app/
+GET  /api/products?filters[productId][$in][0]=2&populate=*
 ```
-https://fairy-tale-api.vercel.app/
+Example: https://clever-beauty-47c85a7410.strapiapp.com/api/products?filters[productId][$in][0]=2&populate=*
 
 ### Filter Product by Category
 ```
