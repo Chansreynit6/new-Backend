@@ -26,6 +26,6 @@ Example: https://clever-beauty-47c85a7410.strapiapp.com/api/products?filters[pro
 
 ### Filter Product by Category
 ```
-GET  /api/products?filters[categoryId][$in][0]=1&populate=*
+GET  /api/products?filters[categroy][categoryId][$eq]=1&populate=*
 ```
-Example: https://clever-beauty-47c85a7410.strapiapp.com/api/products?filters[categoryId][$in][0]=2&populate=*
+Example: https://clever-beauty-47c85a7410.strapiapp.com/api/products?filters[categroy][categoryId][$eq]=1&populate=*
